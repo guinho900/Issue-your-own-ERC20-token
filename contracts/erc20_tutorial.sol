@@ -1,13 +1,13 @@
-pragma solidity ^0.4.24;
+programa solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// '0Fucks' token contract
+// 'FURIOUS COIN ' token contract
 //
-// Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
-// Symbol      : 0FUCKS
-// Name        : 0 Fucks Token
-// Total supply: 100000000
-// Decimals    : 18
+// Deployed to : 0xa6249C9044caaB34a1875A6e0db9a17Ffc7DAaCB
+// Symbol      : FRC
+// Name        : FURIOUS COIN Token
+// Total supply: 1900000000
+// Decimals    : 08
 //
 // Enjoy.
 //
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract FucksToken is ERC20Interface, Owned, SafeMath {
+contract FURIOUS COIN is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -112,13 +112,13 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
     // ------------------------------------------------------------------------
     // Constructor
     // ------------------------------------------------------------------------
-    constructor() public {
-        symbol = "0FUCKS";
-        name = "0 Fucks Token";
-        decimals = 18;
-        _totalSupply = 100000000000000000000000000;
-        balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
-        emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupply);
+    function FURIOUS COIN TOKEN() public {
+        symbol = "FRC";
+        name = "FURIOUS COIN TOKEN ";
+        decimals = 08;
+        _totalSupply = 1900000000;
+        balances[0xa6249C9044caaB34a1875A6e0db9a17Ffc7DAaCB] = _totalSupply;
+        emit Transfer(address(0), 0xa6249C9044caaB34a1875A6e0db9a17Ffc7DAaCB, _totalSupply);
     }
 
 
